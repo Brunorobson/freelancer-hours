@@ -1,8 +1,6 @@
-<div>
-    Componentes show
+    <div class="col-span-2">
+        <x-project-card :$project />
+        <livewire:proposals.create />
 
-    <pre>
-        title: {{ $project->title }}
-        description: {!! $project->description !!}
-    </pre>
-</div>
+    </div>
+
