@@ -1,6 +1,7 @@
     <div class="col-span-2">
-        <x-project-card :$project />
-        <livewire:proposals.create />
+
+        <x-projects.card :$project />
+        
 
     </div>
 
